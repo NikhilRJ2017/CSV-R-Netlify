@@ -55,7 +55,7 @@ allDataHtml.addEventListener('click', (e) => {
     if (e.target.classList.contains('view-parsed-file')) {
         const fileId = e.target.dataset.fileid;
         const fileName = e.target.dataset.filename;
-        window.open(`http://localhost:5500/src/html/show_parsed.html?id=${fileId}&filename=${fileName}`, '_blank', 'popup:yes');
+        window.open(`https://csv-r.netlify.app/src/html/show_parsed.html?id=${fileId}&filename=${fileName}`, '_blank', 'popup:yes');
     }
 })
 
